@@ -1,0 +1,26 @@
+.contenedor-empresa{
+    margin: 7px;
+    margin-top: 0;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre-empresa {
+    padding: 40px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    color: #6495ed;
+    
+}
+
+.eslogan{
+    text-align: center;
+   padding: 50px;
+    font-size: 2rem;
+    justify-content: right;
+}
