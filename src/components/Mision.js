@@ -10,7 +10,7 @@ function Mision(props){
             </div>
 
             <img className='imagen-mision' 
-            src={require('../imagen/birrete.png')} />
+            src={require('../imagen/idea_ico.png')} />
         </div>
     );
 }

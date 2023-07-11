@@ -5,7 +5,7 @@ function BusquedaSegun(props){
     return(
         <div className='busqueda-segun'>
             <img className='foto-descrictiva'
-            src={require('../imagen/birrete.png')} 
+            src={require(`../imagen/${props.segun}`)} 
              />
             <p>{props.buscar}</p>
         </div>

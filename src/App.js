@@ -24,14 +24,22 @@ function App() {
       
       <div className='busqueda'>
       <BusquedaSegun
-      buscar= 'Segun lenguaje'
+      segun = 'experience-icon-23.png'
+      buscar= 'Segun Experiencia'
+      
       />
       <BusquedaSegun
-      buscar= 'Segun experiencia'
+      segun = 'speciality.png'
+      buscar= 'Segun Especialidad'
+      
       />
-      <BusquedaSegun
-      buscar= 'Segun experiencia'
+     
+     <BusquedaSegun
+      segun = 'language_icon.png'
+      buscar= 'Segun Lenguaje'
+      
       />
+
       </div>
 
       <p className='contactar'>o <a className='contactar-link'>Contactanos</a></p>

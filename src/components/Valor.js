@@ -11,7 +11,7 @@ function Valor(props){
             
             </div>
             <img className='imagen-valor'
-            src={require('../imagen/birrete.png')} />
+            src={require('../imagen/values_icon.png')} />
         </div>
     );
 }

@@ -5,7 +5,7 @@ function Vision(props){
     return(
         <div className='contenedor-vision'>
              <img className='imagen-vision' 
-             src={require('../imagen/birrete.png')}
+             src={require('../imagen/group_icon.png')}
             />
             <div className='texto-vision'>
                 <h1>Nuestra Vision es</h1>
