@@ -21,7 +21,7 @@ h1 {
     background-color: #fff;
 }
 
-.texto-vision {
+.texto {
     text-align:right;
     justify-content:right;
 	padding: 40px;
@@ -29,7 +29,10 @@ h1 {
 	font-weight: 400;
 	line-height: 1.5rem;
 }
-.vision {
-    font-size: 1.5rem;
+.p-vision {
+    font-size: 2rem;
+	line-height: 3rem;
 	text-align: justify;
+	margin-right: 30px;
+	margin-left: 30px;
 }

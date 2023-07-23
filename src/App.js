@@ -15,48 +15,52 @@ function App() {
       <BarraNavegacion /> 
       <Empresa
       nombre ='In.Dev' 
-      eslogan ='Tenemos a la persona adecuada para el'/>
-      <p className='titulo-busqueda'>Buscala</p>
-     <div className= "contenedor-principal">
+      eslogan ='Tenemos a la persona adecuada para el trabajo.'/>
+
+      <p className='titulo-busqueda'>Búscala</p>
+
+      <div className= "contenedor-principal">
     
       
       <div className='panel-busqueda'>
       
       <div className='busqueda'>
-      <BusquedaSegun
-      segun = 'experience-icon-23.png'
-      buscar= 'Segun Experiencia'
-      
-      />
-      <BusquedaSegun
-      segun = 'speciality.png'
-      buscar= 'Segun Especialidad'
-      
-      />
-     
-     <BusquedaSegun
-      segun = 'language_icon.png'
-      buscar= 'Segun Lenguaje'
-      
-      />
+        <BusquedaSegun
+        segun = 'experience-icon-23.png'
+        buscar= 'Segun Experiencia'
+        />
 
+        <BusquedaSegun
+        segun = 'speciality.png'
+        buscar= 'Segun Especialidad'
+        />
+      
+      <BusquedaSegun
+        segun = 'language_icon.png'
+        buscar= 'Segun Lenguaje'
+        />
       </div>
 
-      <p className='contactar'>o <a className='contactar-link'>Contactanos</a></p>
-      <p className='contactar'>Para que lo busquenos por ti</p>
-
-      
+      <p className='contactar'>
+        o 
+        <button className='contactar-boton'>Contactanos</button>
+        <br/>
+        Para que lo busquemos por ti
+      </p>
+    
       </div>
-      <Mision 
-      text='Ofrecer a los profesionales mas experimentados y 
-      capacitados para resolver tus problemas y hacer realidad tus ideas'/>
 
-      <Vision 
-      vision ='Ampliar nuestra familia de profesionales para dejar nuestra huella en cada proyecto' />
-     </div>    
+        <Mision 
+        text='Ofrecer a los profesionales mas experimentados y 
+        capacitados para resolver tus problemas y hacer realidad tus ideas.'/>
 
-      <Valor 
-      valor = 'Liderazgo, Colaboracion, Responsabilidad, Experiencia, Calidad' />
+        <Vision 
+        vision ='Ampliar nuestra familia de profesionales para dejar nuestra huella en cada proyecto.' />
+        
+        <Valor 
+        valor = 'Liderazgo. Innovación. Colaboración. Integridad. Responsabilidad. Pasión. Experiencia. Excelencia. Calidad.' />
+      </div>    
+ 
     </div>
   );
 }

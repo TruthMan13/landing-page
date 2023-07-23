@@ -1,8 +1,8 @@
 .contenedor-empresa{
-    margin: 7px;
-    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: #fff;
-    width: 100%;
+    width: 99%;
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -18,9 +18,16 @@
     
 }
 
+.contenedor-eslogan{
+    width: 18%;
+}
+
 .eslogan{
-    text-align: center;
-   padding: 50px;
+    text-align: top;
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 0px;
     font-size: 2rem;
     justify-content: right;
+    word-wrap: break-word;
 }

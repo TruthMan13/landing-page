@@ -9,7 +9,7 @@ function Vision(props){
             />
             <div className='texto-vision'>
                 <h1>Nuestra Vision es</h1>
-                <p className='vision'>{props.vision}</p>
+                <p className='p-vision'>{props.vision}</p>
             </div>
            
         </div>

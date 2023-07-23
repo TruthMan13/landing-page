@@ -7,7 +7,7 @@ function Valor(props){
 
             <div className='texto-valor'>
                 <h1>Nuestros Valores Son</h1>
-            <p className='valor'>{props.valor}</p>
+            <p className='p-valor'>{props.valor}</p>
             
             </div>
             <img className='imagen-valor'

@@ -2,7 +2,7 @@
     width: 100%;
     display: inline;
     background-color: white;
-    padding: 100px;
+    padding: 90px;
     border-radius: 15px;
     font-size: 2rem;
     margin: 10px;
@@ -10,10 +10,24 @@
 }
 
 img {
-    
     margin: 0;
     height: 200px;
-   
-    
     border-radius: 100%;
+}
+
+.boton{
+    background-color: #6495ed;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.imagen-boton{
+    border-radius: 0%;
+    height: 30px;
+    width: 30px;
+    rotate: 180deg;
+    vertical-align: center;
+    margin-top: 10px;
 }

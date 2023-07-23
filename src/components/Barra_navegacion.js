@@ -10,7 +10,7 @@ function BarraNavegacion(props){
             src={require('../imagen/lupa.png')} 
             />
             </a>
-            <a href="" className='loguer' >Loguear</a>
+            <a href="" className='loguer' >Log In.Dev</a>
 
         </div>
     );

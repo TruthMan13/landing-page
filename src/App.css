@@ -50,17 +50,23 @@ h1 {
   width: 100%;
   display: flex;
 }
+
 .titulo-busqueda {
   color: #6795ed;
   font-weight: 500;
   font-size: 2.5rem;
+  margin-top: 20px;
 }
 .contactar {
   font-size: 1.5rem;
   font-weight: 650;
 }
 
-.contactar-link {
+.contactar-boton {
   color: #000;
+  font-size:1.5rem;
   background-color: #6195ed;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
 }
