@@ -1,0 +1,66 @@
+
+.contenedorLogin{
+    margin-top: 3.5%;
+    padding: 1%;
+    background-color: hsl(0, 0%, 100%);   
+    height: max-content;
+    width: 40%;
+    border-radius: 3%;
+    margin-left: 25%;
+    margin-right: 25% ;
+    margin-bottom: 20%;
+    text-align: center;
+    align-items: center;
+    font-weight: 1;
+}
+
+form{
+    text-align: left;
+    
+   
+}
+
+label{
+    text-align: center;
+    width: 90%;
+}
+
+input{
+    width: 100%;
+}
+
+.logBoton{
+    
+    justify-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    border-color: #666;
+    background-color: #666;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.triangulo-boton{
+    border-radius: 0%;
+    height: 30px;
+    width: 30px;    
+    vertical-align: center;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+
+.registrar{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+.bontonRegistrar{
+    color: #6495ed;
+}

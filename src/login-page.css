@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-size: 18px;
+    background-color: rgb(206, 205, 205);
+  }
+  
+  h1 {
+    max-width: 1000px;
+    font-size: 2.5em;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+  
+  }
+  
+  .App {
+    min-height: 100vh;
+    display:flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  .contenedor-principal {
+    min-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+    
+  }
+  .panel-busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  
+  }
+  .busqueda {
+    width: 100%;
+    display: flex;
+  }
+  
+  .titulo-busqueda {
+    color: #6795ed;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  .contactar {
+    font-size: 1.5rem;
+    font-weight: 650;
+  }
+  
+  .contactar-boton {
+    color: #000;
+    font-size:1.5rem;
+    background-color: #6195ed;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+  }

@@ -8,60 +8,61 @@ import Mision from './components/Mision';
 import Vision from './components/Vision';
 import Valor from './components/Valor';
 
+
 function App() {
   return (
     
     <div className="App">    
-      <BarraNavegacion /> 
-      <Empresa
-      nombre ='In.Dev' 
-      eslogan ='Tenemos a la persona adecuada para el trabajo.'/>
+    <BarraNavegacion /> 
+    <Empresa
+    nombre ='In.Dev' 
+    eslogan ='Tenemos a la persona adecuada para el trabajo.'/>
 
-      <p className='titulo-busqueda'>Búscala</p>
+    <p className='titulo-busqueda'>Búscala</p>
 
-      <div className= "contenedor-principal">
+    <div className= "contenedor-principal">
+  
     
-      
-      <div className='panel-busqueda'>
-      
-      <div className='busqueda'>
-        <BusquedaSegun
-        segun = 'experience-icon-23.png'
-        buscar= 'Segun Experiencia'
-        />
-
-        <BusquedaSegun
-        segun = 'speciality.png'
-        buscar= 'Segun Especialidad'
-        />
-      
+    <div className='panel-busqueda'>
+    
+    <div className='busqueda'>
       <BusquedaSegun
-        segun = 'language_icon.png'
-        buscar= 'Segun Lenguaje'
-        />
-      </div>
+      segun = 'experience-icon-23.png'
+      buscar= 'Segun Experiencia'
+      />
 
-      <p className='contactar'>
-        o 
-        <button className='contactar-boton'>Contactanos</button>
-        <br/>
-        Para que lo busquemos por ti
-      </p>
+      <BusquedaSegun
+      segun = 'speciality.png'
+      buscar= 'Segun Especialidad'
+      />
     
-      </div>
-
-        <Mision 
-        text='Ofrecer a los profesionales mas experimentados y 
-        capacitados para resolver tus problemas y hacer realidad tus ideas.'/>
-
-        <Vision 
-        vision ='Ampliar nuestra familia de profesionales para dejar nuestra huella en cada proyecto.' />
-        
-        <Valor 
-        valor = 'Liderazgo. Innovación. Colaboración. Integridad. Responsabilidad. Pasión. Experiencia. Excelencia. Calidad.' />
-      </div>    
- 
+    <BusquedaSegun
+      segun = 'language_icon.png'
+      buscar= 'Segun Lenguaje'
+      />
     </div>
+
+    <p className='contactar'>
+      o 
+      <button className='contactar-boton'>Contactanos</button>
+      <br/>
+      Para que lo busquemos por ti
+    </p>
+  
+    </div>
+
+      <Mision 
+      text='Ofrecer a los profesionales mas experimentados y 
+      capacitados para resolver tus problemas y hacer realidad tus ideas.'/>
+
+      <Vision 
+      vision ='Ampliar nuestra familia de profesionales para dejar nuestra huella en cada proyecto.' />
+      
+      <Valor 
+      valor = 'Liderazgo. Innovación. Colaboración. Integridad. Responsabilidad. Pasión. Experiencia. Excelencia. Calidad.' />
+    </div>    
+
+  </div>
   );
 }
 
