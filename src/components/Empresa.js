@@ -10,7 +10,8 @@ function Empresa(props){
 		<div className= 'contenedor-eslogan'>
 			<h1 className='eslogan'>{props.eslogan}</h1>
 		</div>
-	</div>);
+	</div>
+	);
 
 }
 

@@ -1,5 +1,6 @@
-import React from 'react'
-import '../style-sheet/Buscar_segun.css'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import '../style-sheet/Buscar_segun.css';
 
 function BusquedaSegun(props){
     return(
@@ -9,11 +10,12 @@ function BusquedaSegun(props){
 
             <p>{props.buscar}</p>
             
-            <button className= 'boton'>
-                <img className='imagen-boton'
-                src={require(`../imagen/triangulo.png`)} alt="Submit"/>
-            </button>
-           
+            <Link to={`/${props.path}`}>
+                <button className= 'boton'>
+                    <img className='imagen-boton'
+                    src={require(`../imagen/triangulo.png`)} alt="Submit"/>
+                </button>
+            </Link>
             
         </div>
     );

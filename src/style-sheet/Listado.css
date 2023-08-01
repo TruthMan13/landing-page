@@ -1,0 +1,84 @@
+.contenedor-titulo{
+    display: flex;
+    margin: 5px;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 650;
+    margin-left: 10px;
+}
+
+.imagen-titulo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    vertical-align: center;
+}
+
+.fila{
+    width: 100%;
+    display: inline-grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contenedor-empleado{
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.foto-empleado{
+    border-radius: 10%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.nombre{
+    font-size: 2rem;
+}
+
+.info{
+    font-size: 1.7rem;
+    margin-top: 50px;
+}
+
+.boton-perfil{
+    font-size: 1.5rem;
+    background-color: #6495ed;
+    color: white;
+    border-radius: 20%;
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.imagen-flecha{
+    height: 30px;
+    width: 30px;
+    vertical-align: center;
+    rotate: 90deg;
+    border-radius: 0%;
+    margin-left: 20px;
+}
+
+.contenedor-lenguaje{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-lenguaje{
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
